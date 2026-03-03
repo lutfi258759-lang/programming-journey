@@ -1,74 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jadwal</title>
-  <style>
-    body {
-      font-family: sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:blue;
     }
-  </style>
+    header {
+        margin-bottom: 2em;
+        text-align: center;
+    
+    }
+    article {
+        border: 1px solid silver;
+        border-radius: 0,8em;
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: white;
+        text-align: left;
+    }
+    .actioon-buttons {
+        margin-top: 1.5em;
+        
+    }
+    .actioon-buttons button {
+        display: inline;
+        margin-right: 1em;
+        padding: 0.5em 1em;
+        border-radius: 0.8em;
+        border: 1px solid silver;
+    }
+    footer {
+        font-size: small;
+        margin-top: 6em;
+        text-align: center;
+    }
+    .lutfi {
+        border: 3px solid silver;
+        padding: 1em;
+        margin-bottom: 1em;
+        background-color: white;
+        text-align: center;
+    }
+    .lut {
+        width: 150px;
+        height: 150px;
+    }
+    .kotak {
+        width: 100%;
+    }
+
+    </style> 
 </head>
 <body>
-  <p style="text-align: center; margin-bottom: 0;">JADWAL KBM SMK 1 KANDEMAN SEMESTER GENAP TA 2025/2026</p>
-  <h1 style="text-align: center; margin-top: 0;">KELAS X PPLG 2</h1>
-  <p style="text-align: right; font-size: 9%;">Guru Kelas:Mukti Widodo, S.T</p>
-  <p style="text-align: right; font-size: 9%;">X PPLG 2</p> 
-  <!--Tabel-->
-  <table border="3" style="border-collapse: collapse; table-layout: fixed; "width="100%"; cellpadding="10">
-    <!-- Membuat head tabel -->
-     <thead>
-      <th></th>
-      <th>1</th>
-      <th>2</th>
-      <th>3</th>
-      <th>4</th>
-      <th>5</th>
-      <th>6</th>
-      <th>7</th>
-      <th>8</th>
-      <th>9</th>
-      <th>10</th>
-      <th>11</th>
-     </thead>
-     <!-- Membuat body tabel -->
-      <tbody>
-        <tr>
-          <td>Senin</td>
-          <td colspan="3" style="text-align: center; background-color: #ffa0fe;"> PABP <br><br> Laely Hilalliyah, S.Fil, M.Pd</td>
-          <td colspan="2" style="text-align: center; background-color: #57c1ff"> MATEMATIKA <br><br> Yudha Arviani, S.Pd</td>
-          <td colspan="3" style="text-align: center; background-color: #fe57ff"> PIPAS <br><br> Satria Nur Karim Amrullah, S.Pd</td>
-          <td colspan="2" style="text-align: center; background-color: #57c1ff"> Koding dan Kecerdasan <br>Artifisal <br><br> Riris Yuniararti, S.Pd <br><br><span style="text-align: left; display: block;">Lab Kom 3</span></td>
-        </tr>
-        <tr>
-          <td>Selasa</td>
-          <td colspan="2" style="text-align: center; background-color: #57ffff"> SEJARAH <br><br> Wahyu Dwi Yulianti, S.Pd</td>
-          <td colspan="5" style="text-align: center; background-color: #fec02f"> RPL-Dasar PPLG <br><br> Mukti Widodo, S.T <br><br><span style="text-align: left; display: block;">RPL-GV</span></td>
-          <td colspan="4" style="text-align: center; background-color: #fec02f"> RPL-Dasar PPLG <br><br> Mukti Widodo, S.T <br><br><span style="text-align: left; display: block;">RPL-GV</span></td>
-        </tr>
-        <tr>
-          <td>Rabu</td>
-          <td colspan="3" style="text-align: center; background-color: #fec02f"> RPL-Dasar PPLG <br><br> Mukti Widodo, S.T <br><br><span style="text-align: left; display: block;">RPL-GV</span></td>
-          <td colspan="2" style="text-align: center; background-color: #00c0ff"> BAHASA INDONESIA <br><br> Chanifah Ulfa, S.Pd</td>
-          <td colspan="2" style="text-align: center; background-color: #57c1ff"> PENDIDIKAN PANCASILA <br><br> Maria Ulfa, S.Pd</td>
-          <td colspan="2" style="text-align: center; background-color: #ff8057"> BAHASA JAWA <br><br> Rinta Dwi Jayanti, S.Pd</td>
-          <td colspan="2" style="text-align: center; background-color: #ff9a66"> BAHASA INGGRIS <br><br> Yuli Rahayu, S.Pd</td>
-        </tr>
-        <tr>
-          <td>Kamis</td>
-          <td colspan="2" style="text-align: center; background-color: #00c0ff"> BAHASA INDONESIA <br><br> Chanifah Ulfa, S.Pd</td>
-          <td colspan="2" style="text-align: center; background-color: #ff9a66"> BAHASA INGGRIS <br><br> Yuli Rahayu, S.Pd</td>
-          <td colspan="3" style="text-align: center; background-color: #fe57ff"> PIPAS <br><br> Satria Nur Karim Amrullah, S.Pd</td>
-          <td colspan="2" style="text-align: center; background-color: #a1c0ff"> SENI BUDAYA <br><br> YSigit Purnomo, S.Pd</td>
-          <td colspan="2" style="text-align: center; background-color: #57c1ff"> MATEMATIKA <br><br> Yudha Arviani, S.Pd</td>
-        </tr>
-        <tr>
-          <td>Jumat</td>
-          <td colspan="3" style="text-align: center; background-color: #58ff57"> PJOK <br><br> Drs. Budi Setiyadi</td>
-          <td colspan="2" style="text-align: center; background-color: #57c1ff"> INFORMATIKA <br><br> Riris Yuniararti, S.Pd</td>
-        </tr>
-      </tbody>
-  </table>
+     <head>
+    <header>
+        <h1>Profil Saya</h1>
+        <p>Foto Saya</p>
+        <img src="ltf.jpg" class="lut">
+    <header>
+
+    <article>
+      <p>Saya adalah seorang pelajar SMK Negeri 1 Kandeman. Jurusan saya adalah
+        Pengembangan perangkat lunak dan gim. Saya memiliki hobi mancing dan panasan.
+      </p>
+
+    <div class="action-buttons">
+        <button>&#x1f44D LIke</button>
+        <button>&#128552 comment</button>
+        <button>&#xF16D share</button>
+ </div>
+</article>
+
+<article>
+    <p>Kompetensi yang sudah saya pelajari di jurusan saya adalah HTML, CSS, dan
+        Python. Saya sudah dapat membuat halaman web sederhana dan memahami dasar-dasar
+        pemrograman.
+    </p>
+
+    <div class="action-buttons">
+        <button>&#x1f44D LIke</button>
+        <button>&#128552 comment</button>
+        <button>&#xF16D share</button>
+    </div>
+</article>
+
+<article class="lutfi">
+    <table class="kotak">
+        <thead>
+           <tr>
+            <th>Skill</th>
+            <th>Pengalaman</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&#8226 HTML (expert)</td>
+                <td>&#8226 Freelancer di internet</td>
+            </tr>
+            <tr>
+                <td>&#8226 CSS (Beginner)</td>
+                <td>&#8226 Leader local linux Commuunnity</td>
+            </tr>
+            <tr>
+                <td>&#8226 Python (Beginner)</td>
+                <td>&#8226 Leader local Commuunnity</td>
+            </tr>
+        </tbody>
+
+    </table>
+</article>
+
+<footer>
+    copyright &copy; xpplg
+</footer>
 </body>
 </html>
